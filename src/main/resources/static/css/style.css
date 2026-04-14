@@ -1,40 +1,109 @@
 body {
-    background-color: #f4f6f9;
+    background: linear-gradient(135deg, #f8eef1 0%, #f3e1e7 100%);
     font-family: Arial, sans-serif;
+    color: #2d0a13;
     margin: 0;
-    padding: 20px;
+    padding: 30px 15px;
 }
 
 .container-custom {
-    max-width: 700px;
+    max-width: 720px;
     margin: 40px auto;
-    background-color: white;
+    background-color: #fff8fa;
     padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 18px;
+    border: 2px solid #5E0014;
+}
+
+h2 {
+    color: #5E0014;
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: #fff;
+    border: 1px solid #c98d9d;
+    color: #2d0a13;
+}
+
+.form-control:focus {
+    border-color: #5E0014;
+    box-shadow: 0 0 0 0.2rem rgba(94, 0, 20, 0.2);
+}
+
+.form-control::placeholder {
+    color: #9a6a76;
+}
+
+.btn-primary {
+    background-color: #5E0014 !important;
+    border-color: #5E0014 !important;
+}
+
+.btn-primary:hover {
+    background-color: #7b0a22 !important;
+    border-color: #7b0a22 !important;
+}
+
+.btn-warning {
+    background-color: #c97d8f !important;
+    border-color: #c97d8f !important;
+    color: white !important;
+}
+
+.btn-warning:hover {
+    background-color: #b96a7d !important;
+    border-color: #b96a7d !important;
+    color: white !important;
+}
+
+.btn-secondary {
+    background-color: #8b6a73 !important;
+    border-color: #8b6a73 !important;
+}
+
+.btn-secondary:hover {
+    background-color: #75575f !important;
+    border-color: #75575f !important;
 }
 
 .item-list {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-top: 20px;
+    gap: 14px;
 }
 
 .item-card {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f8f9fa;
-    padding: 15px 20px;
-    border-radius: 10px;
-    border-left: 5px solid #0d6efd;
+    background-color: #ffffff;
+    border: 1px solid #e7c3cc;
+    border-left: 6px solid #5E0014;
+    padding: 14px 16px;
+    border-radius: 12px;
 }
 
 .item-card span {
+    color: #3c0c17;
     font-size: 16px;
 }
 
-hr {
-    margin: 20px 0;
+.btn-outline-primary {
+    color: #5E0014 !important;
+    border-color: #5E0014 !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: #5E0014 !important;
+    border-color: #5E0014 !important;
+    color: white !important;
+}
+
+.btn-outline-danger {
+    color: #b33b4a !important;
+    border-color: #b33b4a !important;
+}
+
+.btn-outline-danger:hover {
+    background-color: #b33b4a !important;
+    border-color: #b33b4a !important;
+    color: white !important;
 }
